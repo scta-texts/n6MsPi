@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Prologus</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Prologus</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="n6MsPi-9xua6j"> <!-- n6MsPi-prol -->
+      <head xml:id="n6MsPi-9xua6j-Hd1e109">Prologus</head>
+      <p xml:id="n6MsPi-9xua6j-d1e112">
+   Meminit Sanctitas vestra Evangelium secundum 
+   <lb ed="#PL"/> Joannem ex ordine lectionum nos solere tractare : 
+   <lb ed="#PL"/> sed quia nunc interposita est solemnitas sanctorum 
+   <lb ed="#PL"/> dierum, quibus certas ex Evangelio lectiones oportet 
+   <lb ed="#PL"/> in Ecclesia recitari, quae ita sunt annu?e, ut aliae esse 
+   <lb ed="#PL"/> non possint (b) ; ordo ille quem susceperamus, neces<lb ed="#PL" break="no"/>sitate
+   paululum intermissus est, non amissus. Cum 
+   <lb ed="#PL"/> autem cogitarem quid secundum hilaritatem praesen<lb ed="#PL" break="no"/>tium
+   dierum per hanc hebdomadam vobiscum de 
+   <lb ed="#PL"/> Scripturis agerem, quantum Dominus donare digna<lb ed="#PL" break="no"/>tur,
+   quod posset in istis septem vel octo diebus 
+   <lb ed="#PL"/> finiri, occurrit mihi Epistola beati Joannis: ut cujus 
+   <lb ed="#PL"/> Evangelium paululum intermisimus, ejus Epistulam 
+   <lb ed="#PL"/> tractando ab eo non recedamus ; praesertim quia in 
+   <lb ed="#PL"/> ipsa Epistola satis dulci omnibus quibus sanum est 
+   <lb ed="#PL"/> palatum cordis, ubi sapiat panis Dei, et satis me<lb ed="#PL" break="no"/>morabili
+   in sancta Ecclesia Dei, maxime Charitas 
+   <lb ed="#PL"/> commendatur. Locutus est multa, et prope omnia de 
+   <lb ed="#PL"/> Charitate. Qui babet in se unde audiat, necesse est 
+   <lb ed="#PL"/> gaudeat ad quod audit. Sic enim illi erit lectio ista , 
+   <lb ed="#PL"/> tanquam oleum in flamma; si est ibi quod nutriatur, 
+   <lb ed="#PL"/> nutritur, et crescit, et permanet. Item quibusdam sic 
+   <lb ed="#PL"/> esse debet, tanquam flamma ad fomitem; ut si non 
+   <lb ed="#PL"/> ardebat, accedente sermone accendatur. In qui<lb ed="#PL" break="no"/>busdam
+   enim nutritur quod est, in quibusdam accen<lb ed="#PL" break="no"/>ditur
+   si deest; ut omnes in una charitate gaudea<lb ed="#PL" break="no"/>mus.
+   Ubi autem charitas , ibi pax; et ubi humilitas, 
+   <lb ed="#PL"/> ibi charitas. Jam ipsum audiamus ; et ad ejus verba, 
+   <lb ed="#PL"/> quae Dominus suggerit, etiam vobis ut bene intelli<lb ed="#PL" break="no"/>gatis,
+   loquamur.
+  </p>
+    </div>
+   </body>
+  </text>
+</TEI>

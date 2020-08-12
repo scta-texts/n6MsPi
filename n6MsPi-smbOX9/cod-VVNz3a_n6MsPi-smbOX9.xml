@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 3</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 3</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="n6MsPi-smbOX9"> <!-- n6MsPi-t3 -->
+      <head xml:id="n6MsPi-smbOX9-Hd1e109">Tractatus 3</head>
+      <p xml:id="n6MsPi-smbOX9-d1e112">
+       <title type="sub">
+        <hi rend="italic">De eo quod sequitur,</hi> Pueri, novissima hora est;
+    usque <hi rend="italic">ad</hi> id, Unctio ipsius docet vos de omnibus. <hi rend="italic">Cap.</hi> II, f. 18-27.</title>
+      </p>
+      <p xml:id="n6MsPi-smbOX9-d1e127">1 . <hi rend="italic">Pueri, novissima hora est.</hi> In hac lectione pueros 
+   <lb ed="#PL"/> alloquitur, ut festinent crescere, quia novissima bura 
+   <lb ed="#PL"/> est. aetas corporis non est in voluntate. Ita nullus 
+   <lb ed="#PL"/> secundum carnem crescit quandovult; sicut nullus 
+   <lb ed="#PL"/> quando vult nascitur : ubi autem nativitas in volun<lb ed="#PL" break="no"/>tale
+   cst, et crementum in voluntate est. Nemo ex 
+   
+   <lb ed="#PL"/> aqua et Spiritu nascitur nisi volens. Ergo si <unclear>vult</unclear>, 
+   <lb ed="#PL"/> crescit: si vult, decrescit. Quid est crescere? Prof. 
+   <lb ed="#PL"/> cere. Quid est decrescere? Deficere. Quisquis novit 
+   <lb ed="#PL"/> natum se esse, audiat quia puer est et infans; avide
+   
+   <lb ed="#PL"/> inhiet uberibus matris, et cito crescit. Est autem ma<lb ed="#PL" break="no"/>lcr
+   Ecclesia; et ubera ejus duo Testamenta Scriptu<lb ed="#PL" break="no"/>rarum
+   divinarum. Hinc sugatur lac omnium sacra­
+   
+   <lb ed="#PL"/> mentorum temporaliter pro aeterna salute nostra ge<lb ed="#PL" break="no"/>storum
+   , ut nutritus atque roboratus perveniat ad 
+   <lb ed="#PL"/> manducandum cibum, quod est, In principio erat 
+   <lb ed="#PL"/>
+       <hi rend="italic">Verbum, et Verbum erat apud Deum, et Deus etat Ver<lb ed="#PL" break="no"/>bum
+    (Joan.</hi> I, i). Lac nostrum Christus humilis est ; 
+   <lb ed="#PL"/> cibus noster, idem ipse Christos arqualis Patri. Lacte 
+   <lb ed="#PL"/> to nutrit, ut pane pascai : nam corde contingere Jesum 
+   <lb ed="#PL"/> spiritualiter, hoc est cognoscere quia aequalis est Patri.</p>
+      <p xml:id="n6MsPi-smbOX9-d1e182">i. Propterea et Mariam prohibebat se tangere , et 
+   <lb ed="#PL"/> dicebat ei: <hi rend="italic">Noli me tangere; nondum enim ascendi ad
+   <lb ed="#PL"/> Patrem.</hi> Quid est hoc ? Discipulis se palpandum prae<lb ed="#PL" break="no"/>buit,
+   et Mariae contactum vitavit ? Nonne ipse est 
+   <lb ed="#PL"/> qui dubitanti discipulo dixit, <hi rend="italic">Mitte digitos, et palpa 
+   <lb ed="#PL"/> cicatrices
+    (Id.</hi> xx, 17, 27) ? Numquid jam ad Patrem 
+   <lb ed="#PL"/> ascenderat? Quare ergo Mariam prohibet, et dicit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Noli</hi> me <hi rend="italic">tangere;</hi> nondum enim <hi rend="italic">ascendi ad Patrem t</hi>
+   
+       <lb ed="#PL"/> An hoc dicturi samus, quod a viris se tangi non ii<lb ed="#PL" break="no"/>muit,
+   et a mulieribus tangi timuit ? Contactus illius 
+   <lb ed="#PL"/> omnem carnem mundat. Quibus primo voluit manife-
+   
+   <lb ed="#PL"/> stari, ab his se timuit contrectari ? Nonne viris re<lb ed="#PL" break="no"/>surrectio
+   ejus per feminas nuntiata esi, ut contraria 
+   <lb ed="#PL"/> arte serpens vinceretur? Quia enim ille mortem primo 
+   <lb ed="#PL"/> homini per feminam nuntiavit; ei viris vita per fcmi 
+   <lb ed="#PL"/> nam nuntiata est. Quare ergo se tangi noluit, nisi quia 
+   <lb ed="#PL"/> contactum illum spiritualem intelligi voluit
+   ? Contactas 
+   <lb ed="#PL"/> spiritualis est de corde mundo. Ille attingit de corde 
+   <lb ed="#PL"/> mundo Christum, qui eum intelligit Patri coaequa- 
+   <lb ed="#PL"/> lem. Qui autem nondum intelligit divinitatem Christi, 
+   <lb ed="#PL"/> usque ad carnem venit, usque ad divinitatem non vo. 
+   <lb ed="#PL"/> nit. Quid autem magnum esi, usque illuc attingere , 
+   <lb ed="#PL"/> usque quo persecutores qui crucifixerunt ? Illud est 
+   <lb ed="#PL"/> magnum , intelligere Verbum Deum apnd Deum in 
+   <lb ed="#PL"/> principio, per quod facia sunt omnia : qualem se co<lb ed="#PL" break="no"/>gnosci
+   volebat , quando ait Philippo, <hi rend="italic">Tanto</hi> tempore 
+   <lb ed="#PL"/>
+       <hi rend="italic">vobiscum</hi> sum, <hi rend="italic">et non</hi> cognovistis <hi rend="italic">me,</hi> Philippe t Qui vi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">det</hi> me, videt <hi rend="italic">et Patrem (Joan.</hi> XIV, 9).</p>
+      <p xml:id="n6MsPi-smbOX9-d1e279">3. Sed ne quis piger sit ad proficiendum, audiat: 
+   <lb ed="#PL"/>
+       <hi rend="italic">Pueri, novissima hora est.</hi> Proftcite, currite, crescite, 
+   <lb ed="#PL"/> novissima hora est. Ipsa novissima hora diuturna est; 
+   <lb ed="#PL"/> tamen novissima est. Moram enim pro tempore po<lb ed="#PL" break="no"/>suit
+   novissimo; quia in novissimis temporibus vcniet 
+   <lb ed="#PL"/> Dominus noster Jesus Christus. Sed dicturi sunt ali<lb ed="#PL" break="no"/>qui:
+   Quomodo novissimum tempus? quomodo novis<lb ed="#PL" break="no"/>sima
+   hora? certe prius veniet Antichristus, et tunc 
+   <lb ed="#PL"/> veniet dies judicii. Vidit Joannes cogitationes istas : 
+   <lb ed="#PL"/> ne quasi securi fierent, et ideo non esse horam novis<lb ed="#PL" break="no"/>simam
+   putarent, quod venturus esset Antichristus,
+   
+   <lb ed="#PL"/> ait illis, <hi rend="italic">Et sicut audistis quod Antichristus</hi> sit venturus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">nunc antichristi multi facti sunt.</hi> Numquid posset ha<lb ed="#PL" break="no"/>bere
+   multos antichristos, nisi hora novissima?</p>
+      <p xml:id="n6MsPi-smbOX9-d1e319">4. Quos dixit antichristos? Sequitur, et exponit 
+   <lb ed="#PL"/>
+       <hi rend="italic">Unde cognoscimus quod novissima</hi> sit <hi rend="italic">hora.</hi> Unde? Quia 
+   <pb ed="#PL" n="1999"/>
+       <lb ed="#PL"/>
+       <hi rend="italic">antichristi multi</hi> facti suni. <hi rend="italic">Ex nobis
+    exierunt:</hi> videte 
+   <lb ed="#PL"/> antichristos. Ex nobis <hi rend="italic">exierunt:</hi> ergo plangimus dam<lb ed="#PL" break="no"/>nam.
+   Audi consolationem : <hi rend="italic">Sed non erant ex
+    nobis.</hi>
+   
+       <lb ed="#PL"/> Omnes haeretici, omnes schismatici ex nobis exierunt, 
+   <lb ed="#PL"/> id est, ei Ecclesia exeunt; sed non exirent,si ex no<lb ed="#PL" break="no"/>bis
+   essent. Antequam exirent ergo, non erant ex nobis. 
+   <lb ed="#PL"/> Si antequam exirent, non erant ex nobis; multi intus 
+   <lb ed="#PL"/> sunt, non exierant, sed tamen antichristi sunt. Aude- 
+   <lb ed="#PL"/> mas hoc dicere: utquid, nisi ut unusquisque cum intus 
+   <lb ed="#PL"/> est, non sit antichristus ? Descripturus enim et designa­
+   
+   <lb ed="#PL"/> torus est antichristos; et videbimus eos nune. Et inter<lb ed="#PL" break="no"/>rogare
+   debet unusquisque conscientiam suam, an sit 
+   <lb ed="#PL"/> antichristus. Latiae enim Antichristus, contrarius est 
+   <lb ed="#PL"/> Christo. NOD quomodo nonnulli intelligunt Antichri<lb ed="#PL" break="no"/>stum
+   ideo dictum, quod ante Christum venturus sit, id 
+   <lb ed="#PL"/> est, post eum venturus sit Christus : non sic dicitur, 
+   <lb ed="#PL"/> nec sic scribitur; sed Antichristus, id est, contrarius 
+   <lb ed="#PL"/> Christo. Jam qtris sit contrarius Christo, nunc adverti<lb ed="#PL" break="no"/>tis
+   ipso exponente, et intelligitis non posse exire foras 
+   <lb ed="#PL"/> nisi antichristos; eos autem qui non sunt Christo con<lb ed="#PL" break="no"/>trarii
+   , foras exite nullo modo posse. Qui enim non 
+   <lb ed="#PL"/> est Christo contrarius, in corpore ipsius haeret, et mem<lb ed="#PL" break="no"/>brum
+   computatur. Nunquam sibi sunt membra con<lb ed="#PL" break="no"/>traria.
+   Corporis integritas universis membrisconstat. 
+   <lb ed="#PL"/> Et quid de concordia membrorum dicit Apostolus? 
+   <lb ed="#PL"/> Si palilwr unum membrum, compatiuntur omnia mem­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bra; et</hi> ei glorificatur unum <hi rend="italic">membrum,
+    congaudent</hi>
+   
+       <lb ed="#PL"/> omnia <hi rend="italic">membra</hi> (I <hi rend="italic">Cor.</hi> XII, 26). Si ergo in glorificatione 
+   <lb ed="#PL"/> membri caetera membra congaudent, et in passione 
+   <lb ed="#PL"/> omnia membra patiuntur; concordia membrorum non 
+   <lb ed="#PL"/> habet antichristum. Et sunt qui intus sia sunt in cor<lb ed="#PL" break="no"/>pore
+   Domini nostri Jesu Christi; quandoquidem adhoc 
+   <lb ed="#PL"/> curatur corpus ipsius, et sanitas perfecta non erit nisi 
+   <lb ed="#PL"/> in resurrectione mortoorum : sic sont in corpore 
+   <lb ed="#PL"/> Christi, quomodo humores mali. Quando evomuntur,
+   
+   <lb ed="#PL"/> tunc relevatur corpus : sic et mali quando exeunt, 
+   <lb ed="#PL"/> tunc Ecclesia relevatur.
+   £t dicit quando eos evomit 
+   <lb ed="#PL"/> atque projicit oorpus: Ex me exierunt humores isti,
+   
+   <lb ed="#PL"/> sed uon erant ex me. Quid, est, non erant 01 me? Non 
+   <lb ed="#PL"/> de carae mea praecisi sunt, sed pectus mibi preme<lb ed="#PL" break="no"/>bant
+   cum inessent.</p>
+      <p xml:id="n6MsPi-smbOX9-d1e446">5. Ex nobis <hi rend="italic">exierunt;</hi> sed, nolite tria&lt;es esse, non 
+   <lb ed="#PL"/>
+       <hi rend="italic">erant</hi> ex nobit. Unde probas ? Quod si fuissent ex no­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bis, permansissent</hi> utique nobiscum. Ilinc ergo videat 
+   <lb ed="#PL"/> I harLas vestra, quia multi qui non sunt ex nobis, acci<lb ed="#PL" break="no"/>pium
+    <unclear>nobiscuniS</unclear> aeramenta, accipiunt nobiscum Ba<lb ed="#PL" break="no"/>ptismum.
+   accipiunt nobiscum quod norunt fideles se 
+   <lb ed="#PL"/> accipere, Benedictionem, Eucharistiam It et quidquid 
+   <lb ed="#PL"/> in Sacramentis sanctis est; ipsius akaris communi<lb ed="#PL" break="no"/>cationem
+   accipiunt nobiscum, et non sunt ex nobis. 
+   <lb ed="#PL"/> Tentatio probat quia non sunt ex nobis. Quando illis 
+   <lb ed="#PL"/> tentatio venerit, velut occasione venti, volant foras, 
+   <lb ed="#PL"/> quia grana non erant. Omnes autem tunc volabunt, 
+   <lb ed="#PL"/> quod saepe dicendum est, cum area Dominica coeperit 
+   <lb ed="#PL"/> ventilari in dic judicii. Ex <hi rend="italic">nobis exierunt,
+    sed non erant</hi>
+   
+       <lb ed="#PL"/> cx <hi rend="italic">nobis : quod</hi> si <hi rend="italic">fuissent ex
+    nobis,</hi> permansissent <hi rend="italic">utique 
+   <lb ed="#PL"/> nobiscum.</hi>
+       <unclear>Nam</unclear> vultis uosse, charissimi, quam certis<lb ed="#PL" break="no"/>sime
+   dicatur hoc, ut qui forte exicrunL et redeunt, 
+   <lb ed="#PL"/> non sint antichristi, non sint contrarii Christo? Qui 
+   
+   <lb ed="#PL"/> non sunt antichristi *, non potest fieri ut remaneant 
+   <lb ed="#PL"/> foris. Sed de voluntate sua quisque aut antichristus, 
+   <lb ed="#PL"/> aut in Christo est. Aut in membris sumus, aut in hu. 
+   <lb ed="#PL"/> moribus malis. Qui se in melius commutat, in cor<lb ed="#PL" break="no"/>pore
+   membrum est : qui autem in malitia permanet, 
+   <lb ed="#PL"/> humor malus est; et quando exierit, relevabuntur qui 
+   <lb ed="#PL"/> premebantur. <hi rend="italic">Ex nobis exierunt, sed non erant
+    ex no<lb ed="#PL" break="no"/>bis
+   : quod</hi> si <hi rend="italic">fuissent</hi> ex <hi rend="italic">nobis, permansissent utique 
+   <lb ed="#PL"/> nobiscum : sed</hi> ut <hi rend="italic">manifestarentur, quod non omnes 
+   <lb ed="#PL"/> erant ex nobis.</hi> Ideo addidit, ut <hi rend="italic">manifestarentur, quia</hi> et 
+   <lb ed="#PL"/> intus cum sunt, non ex nobis sunt ; non tamen mani<lb ed="#PL" break="no"/>fesli
+   sunt, sed exeundo manifestantur. Et <hi rend="italic">vas</hi> unctio­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nem habetis a sancto,</hi> ut ipsi <hi rend="italic">vobis
+    manifesti</hi> silis. Un<lb ed="#PL" break="no"/>ctio
+   spiritualis ipse Spiritus sanctus cst, cujus sacra<lb ed="#PL" break="no"/>mentum
+   est in unctione visibili. Hanc unctionem 
+   <lb ed="#PL"/> Christi dicit omnes qui habent, cognoscere malos et 
+   <lb ed="#PL"/> bonos; nec opus esse ut doceantur, quia ipsa unctio 
+   <lb ed="#PL"/> docet eos.</p>
+      <p xml:id="n6MsPi-smbOX9-d1e578">
+       <hi rend="italic">6. Scribo vobis, non quod nescieritis veritatem; sed 
+   <lb ed="#PL"/> quia</hi> nostis <hi rend="italic">eam, et quia omne</hi> mendacium <hi rend="italic">non est ex
+    ve<lb ed="#PL" break="no"/>ritate.</hi> Ecce admoniti sumus quomodo cognoscamus 
+   <lb ed="#PL"/> Antichristum. Quid est Christus? Veritas. Ipse dixit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ego</hi> sum <hi rend="italic">veritas (Joan.</hi> xiv, 6). <hi rend="italic">Omne</hi> autem <hi rend="italic">menda­</hi>
+   
+       <lb ed="#PL"/> cium non <hi rend="italic">eat ex veritate:</hi> omnes igitur qui mentiuntur,
+   
+   <lb ed="#PL"/> nondum sont ex Christo. Non dixit quoddam menda<lb ed="#PL" break="no"/>cium
+   ex veritate, etquoddam mendacium non ex veri<lb ed="#PL" break="no"/>tate.
+   Sententiam attendite; nevos palpetis, ne vos adu­
+   
+   <lb ed="#PL"/> letis, ne vos decipiatis, ne vos illudatis : <hi rend="italic">Omne menda­</hi>
+   
+       <lb ed="#PL"/> cium non <hi rend="italic">eat ex</hi> veritate. Videamus ergo quomodo anti<lb ed="#PL" break="no"/>christi
+   mentiuntur quia non est anum genus mendacii. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Quis eat</hi> mendaX, <hi rend="italic">nisi</hi> is <hi rend="italic">qui negat quod Jesus non est
+   <lb ed="#PL"/> Christus? Aliam</hi> significationem babet Jesus, aliam ha<lb ed="#PL" break="no"/>bet
+   Christus: cum sit unus Jesus Christus salvator no<lb ed="#PL" break="no"/>ster,
+   Jesus tamen proprium nomen est illi. Quomoilo 
+   <lb ed="#PL"/> Moyses proprio nomine appellatus est, quomodo Elias, 
+   <lb ed="#PL"/> quomodo Abraham; sic tanquam proprium nomen 
+   <lb ed="#PL"/> habet Dominus noster Jesus : Cbristus autem sacra<lb ed="#PL" break="no"/>menti
+   nomen est. Quomodo si dicatur propheta, quo<lb ed="#PL" break="no"/>medo
+   si dicatur sacerdos; sic ChristUs commendatur 
+   <lb ed="#PL"/> unctus, in quo esset redemptio totius populi Israel. 
+   <lb ed="#PL"/> Iste Christus sperabatur venturus a populo Judaeo­
+   
+   <lb ed="#PL"/> rum; et quia humilis venit, non est agnitus; quia la<lb ed="#PL" break="no"/>pis
+   parvus erat, offenderunt in illum, et fracti sunt. 
+   <lb ed="#PL"/> Sed crevit lapis, et factus est mons magnus
+    <hi rend="italic">(Dan.</hi> lit, 
+   <lb ed="#PL"/> 55); et quid ait Scriptura? <hi rend="italic">Quicunque offenderit in 
+   <lb ed="#PL"/> lapidem istum, conquassabitur; et super quem venerit
+    
+   <lb ed="#PL"/> lapis iste, comeret eum (Luc.</hi> xx, 18). Discernenda sunt 
+   <lb ed="#PL"/> verba : offendentetn dixit conquassari; super quem 
+   <lb ed="#PL"/> autem venerit, conteri. Primo quia humilis venit, of<lb ed="#PL" break="no"/>fenderunt
+   in illam homines : quia excelsus venturus 
+   <lb ed="#PL"/> est ad judicium, super qnem venerit, conteret eum. 
+   <lb ed="#PL"/> Sed illum non conteret venturus, quem nOn <unclear>qu</unclear> assa- 
+   <lb ed="#PL"/> vit cum venit. Qui in humilem non offendit, non for<lb ed="#PL" break="no"/>midabit
+   excelsum. Breviter audistis, fratres: qui in 
+   <lb ed="#PL"/> humilem non ofFendit, non formidabit excelsum. Om<lb ed="#PL" break="no"/>nibus
+   enim malis lapis offensionis est Christus; quid<lb ed="#PL" break="no"/>quid
+   dicit Christos, amarum est illis.</p>
+      <p xml:id="n6MsPi-smbOX9-d1e713">7. Etcnim audite, et videte. Omnes certe qui exeunt 
+   
+   <pb ed="#PL" n="2001"/>
+       <lb ed="#PL"/> de Ecclesia, et ab unitate Ecclesiae praeciduntur, an<lb ed="#PL" break="no"/>tichrisli
+   sunt: nemo dubitet; ipse enim designavit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ex nobis exierunt, sed non erant ex</hi> nobis : <hi rend="italic">nam</hi> si 
+   <lb ed="#PL"/>
+       <hi rend="italic">fuissent ex nobis, permansissent utique nobiscum.</hi> Qui<lb ed="#PL" break="no"/>cumque
+   ergo non manent nobiscum, sed exeunt ex 
+   <lb ed="#PL"/> nobis, manifestum est quod antichristi sunt. Et quo<lb ed="#PL" break="no"/>modo
+   probantur antichristi? Ex mendacio. Et <hi rend="italic">quis est 
+   <lb ed="#PL"/> mendax, nisi qui negat quod</hi> Jesus <hi rend="italic">non es! Christus</hi> ? 
+   <lb ed="#PL"/> Interrogemus haereticos : quem invenis haereticum, 
+   <lb ed="#PL"/> qui negat quia Jesus non est Christus ? Videat Charitas 
+   <lb ed="#PL"/> vestra magnum sacramentum. Attendite quid inspi<lb ed="#PL" break="no"/>raverit
+   nobis Dominus Deus, et quid insinuare vobis 
+   <lb ed="#PL"/> velim. Ecce exierunt a nobis, et facti sunt Donatistae : 
+   <lb ed="#PL"/> interrogamus eos utrum Jesus sit Christus; statim con<lb ed="#PL" break="no"/>fitentur
+   quia Jesus Christus est. Si ergo ille est anti<lb ed="#PL" break="no"/>christus
+   qui negat Jesum esse Christum, nec nos pos<lb ed="#PL" break="no"/>sunt
+   illi dicere antichristos, nee nos illos; quia et nos 
+   <lb ed="#PL"/> confitemur, et illi. Si ergo nec illi nos dicunt, nec nos 
+   <lb ed="#PL"/> illos ; ergo nec illi a nobis exierunt, nec nos ab ipsis. 
+   <lb ed="#PL"/> Si ergo non a nobis exivimus, in unitate sumus : si 
+   <lb ed="#PL"/> in unitate sumus, quid faciunt in hac civitate duo al<lb ed="#PL" break="no"/>taria' quid faciunt divisae domus, divisa conjugia? 
+   <lb ed="#PL"/> quid facit communis lectus, et divisus Cbrislus? 
+   <lb ed="#PL"/> Admonet nos, vult nos fateri quod verum est. Aut ipti 
+   <lb ed="#PL"/> a nobis exierunt, aut nos ab ipsis. Sed absit ut nos ab 
+   <lb ed="#PL"/> ipsis : habemus enim testamentum dominicae haeredi<lb ed="#PL" break="no"/>tatis,
+   recitamus, et ibi nos invenimus, <hi rend="italic">Dabo libi gentes 
+   <lb ed="#PL"/> hcereditatem tuam, et possessionem
+    tuam terminos 
+   <lb ed="#PL"/> terrae</hi> (Psal. II, 8). Tenemus haereditatem Christi : 
+   <lb ed="#PL"/> illi cam non tenent; non communicant orbi terrarum, 
+   <lb ed="#PL"/> non communicant universitati redemptae sanguine 
+   <lb ed="#PL"/> Domini. Habemus ipsum Dominum resurgentem a 
+   <lb ed="#PL"/> mortuis, qui se dubitantium manibus discipulorum 
+   <lb ed="#PL"/> praebuit palpandum. Et cum adhuc illi dubitarent, 
+   <lb ed="#PL"/> ait illis : <hi rend="italic">Oportebat Christum pati, et</hi> resurgere <hi rend="italic">tertia 
+   <lb ed="#PL"/> die, et</hi> praedicari <hi rend="italic">in
+    nomine ejus</hi> paenitentiam <hi rend="italic">et</hi> remis­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">sionem peccatorum.</hi> Ubi? qua? quibus? <hi rend="italic">Per</hi> omnes y 
+   <lb ed="#PL"/>
+       <hi rend="italic">gentes, incipiens ab Jerusalem(Luc.</hi> xxiv, 46 et 47). Se<lb ed="#PL" break="no"/>curi
+   sumus de unitate haereditatis. Quisquis huic hae<lb ed="#PL" break="no"/>reditati
+   uon communicat, foras exiit.</p>
+      <p xml:id="n6MsPi-smbOX9-d1e845">8. Sed non contristemur : <hi rend="italic">Exnobis exierunt, sed nun
+   <lb ed="#PL"/> erant</hi> ex nobis : <hi rend="italic">nam</hi> si <hi rend="italic">fuissent ex nobis,
+    permansissent
+   <lb ed="#PL"/> utique nobiscum.</hi> Si ergo ex nobis exierunt, antichri<lb ed="#PL" break="no"/>sti
+   sunt; si antichristi sunt, mendaces sunt; si men<lb ed="#PL" break="no"/>daces
+   sunt, negant Jesum esse Christum. Iterum re<lb ed="#PL" break="no"/>dimus
+   ad difficultatem quaestionis. Singulos interro­
+   
+   <lb ed="#PL"/> ga, confitentur Jesum essc Christum. Coarctat nos 
+   <lb ed="#PL"/> angustus intellectus in hac Epistola. Videtis certe 
+   <lb ed="#PL"/> quaestionem; ha c quaestio et nos et ipsos turbat, si
+   
+   <lb ed="#PL"/> . non intelligatur. Aut nos sumus antichristi, aut illi 
+   <lb ed="#PL"/> sunt antichristi : illi nos antichristos vocant, et di<lb ed="#PL" break="no"/>cunt
+   quod exivimus ab eis ; nos illos similiter: sed 
+   <lb ed="#PL"/> designavit haec Epistola antichristos. Quicumque ne<lb ed="#PL" break="no"/>gat
+   quod Jesus uon sit Christus, ipse est antichristus. 
+   <lb ed="#PL"/> Jam ergo quaeramus quis neget; et non attendamus 
+   <lb ed="#PL"/> ad linguam, sed ad facta. Si enim omnes interrogen<lb ed="#PL" break="no"/>tur,
+   omnes uno ore confitentur Jesum esse Christum. 
+   <lb ed="#PL"/> Quiescat paululum lingua, vitam interroga. Si inve<lb ed="#PL" break="no"/>nerimus
+   hoc, si ipsa Scriptura nobis dixerit quia ne<lb ed="#PL" break="no"/>gatio
+   non tantum lingua fit, sed et factis; certe invc<lb ed="#PL" break="no"/>nimus
+   multos antichristos qui ore profitentur Chri<lb ed="#PL" break="no"/>stum,
+   et moribus dissentiunt a Christo. Ubi invenimus
+   
+   <lb ed="#PL"/> hoc in Scriptura? Paulum audi apostolum : de taitbus 
+   <lb ed="#PL"/> cum loqueretur, ait,
+    <hi rend="italic">Confitentur</hi> enim <hi rend="italic">se nosse Deum, 
+   <lb ed="#PL"/> factis
+    autem negant (Tit.</hi> 1, 16). Invenimus et ipsos 
+   <lb ed="#PL"/> antichristos: quisquis factis negat Christum, anti<lb ed="#PL" break="no"/>christus
+   est. Non audio quid sonet, sed video quid v- 
+   <lb ed="#PL"/> vat. Opera loquuntur, et verba requirimus? Quiseuim 
+   <lb ed="#PL"/> malus noa bene vult loqui? Sed quid dicit talibus Do. 
+   <lb ed="#PL"/> minus? Hypocritae, <hi rend="italic">quomodo potestis bona
+    loqui,</hi> cum 
+   <lb ed="#PL"/>
+       <hi rend="italic">sitis mali (Matth.</hi> XII, 34)? Voces vestras ad aures 
+   <lb ed="#PL"/> meas profertis; ego cogitationes vestras inspicio: vo<lb ed="#PL" break="no"/>luntatem
+   malam ibi video, et falsos fructus ostenditis. 
+   <lb ed="#PL"/> Novi quid unde colligam ; non colligo de tribulis ficus, 
+   <lb ed="#PL"/> non colligo de spinis uvas. Unaquaeque enim arbor a 
+   <lb ed="#PL"/> fructu cognoscitur <hi rend="italic">(Id.</hi> VII, 16). Magis mendax est anti<lb ed="#PL" break="no"/>christus
+   qui ore proGtetur Jesum esse Christum, et fa<lb ed="#PL" break="no"/>ctis
+   negat. Ideo mendax, quia aliud loquitur, aliud agit.</p>
+      <p xml:id="n6MsPi-smbOX9-d1e954">9. Jam ergo, fratres, si facta interrogaada sunt, 
+   <lb ed="#PL"/> non solum multos invenimus antichristos foras exiisse; 
+   <lb ed="#PL"/> sed multos nondum manifestos, qui minime foras 
+   <lb ed="#PL"/> exierunt. Quotquot enim habet Ecclesia perjuros, 
+   <lb ed="#PL"/> fraudatores, maleficos, sortilegorum inquisitores, 
+   <lb ed="#PL"/> adulteros, ebriosos, foeneratores, mangones, etomnia
+   
+   <lb ed="#PL"/> quae numerare non possumus; contraria sunt doctri<lb ed="#PL" break="no"/>n:e
+   Christi, contraria sunt verbo Dei : Verbum autem 
+   <lb ed="#PL"/> Dei Christus est: quidquid contrarium est Verbo Dei,
+   
+   <lb ed="#PL"/> in Antichristo est. Antichristus enim contrarius est 
+   <lb ed="#PL"/> Christo. Et vultis nosse quam aperte resistant isti 
+   <lb ed="#PL"/> Christo? Aliquando evenit ut aliquid mali faciant, et 
+   <lb ed="#PL"/> incipiant corripi; quia Christum non audent blasphe<lb ed="#PL" break="no"/>mare,
+   ministros ejus blasphemant, a quibus corri<lb ed="#PL" break="no"/>piuntur
+   : si autem ostenderis illis quia Christi verba 
+   <lb ed="#PL"/> dicis, non verba tua; conantur quantum possunt ut 
+   <lb ed="#PL"/> le convincant verba tua te dicere, non verba Cbristi : 
+   <lb ed="#PL"/> si autem manifestum fuerit quia verba Christi dicis, 
+   <lb ed="#PL"/> eunt et in Christum, incipiunt reprehendere Chri­ 
+   <lb ed="#PL"/> stum : Quomodo, inquiunt, et quare tales nos fecit ? 
+   <lb ed="#PL"/> Nonne dicunt hoc quotidie homines convicti de factis 
+   <lb ed="#PL"/> suis? Prava voluntate perversi, artificem accusant.
+   
+   <lb ed="#PL"/> Clamat illis artifex de coelo (quia ipse nos fecit, qui 
+   <lb ed="#PL"/> nos rerecit): Quid te feci? Ego hominem feci, non 
+   <lb ed="#PL"/> avaritiam; ego hominem feci, non latrocinium; ego
+   
+   <lb ed="#PL"/> hominem feci ; non adulterium. Audisti quia laudant 
+   <lb ed="#PL"/> me opera mea. Ex ore trium puerorum ipse hymnus 
+   <lb ed="#PL"/> erat qui ab ignibus defendebat <hi rend="italic">(Dan.</hi> m, 24-90). Lau<lb ed="#PL" break="no"/>dant
+   opera Domini Dominum; laudat coelum, terra,
+   
+   <lb ed="#PL"/> marc; laudant omnia quae sunt in coelo; laudant An<lb ed="#PL" break="no"/>geli,
+   laudant stellae, laudant luminaria; laudat quid<lb ed="#PL" break="no"/>quid
+   natat, quidquid volat, quidquid ambulat, quidquid 
+   <lb ed="#PL"/> repit, laudant ista omnia Dominum. Numquid audisti 
+   <lb ed="#PL"/> quia-Iaudat Dominum avaritia? numquid audisti quia 
+   <lb ed="#PL"/> laudat Dominum ebriositas; quia laudatluxuria, laudat 
+   <lb ed="#PL"/> nugacitas? Quidquid ibi non audis laudem dare Do<lb ed="#PL" break="no"/>mino,
+   non fecit Dominus. Corrige quod tu fecisti, ut 
+   <lb ed="#PL"/> solvetur quod in te Deus fecit. Si autem non vis, et 
+   <lb ed="#PL"/> amas et amplecteris peccata tua; contrarius es Chri­
+   
+   <lb ed="#PL"/> sto. Intus sis, foris sis, antichristus es : intus sis, fo­ 
+   <pb ed="#PL" n="2003"/>
+       <lb ed="#PL"/> ris sis, palea es. Sed quare foris non es? Quia occa<lb ed="#PL" break="no"/>sionem
+   venti non invenisti.</p>
+      <p xml:id="n6MsPi-smbOX9-d1e1051">10. Jam ista manifesta sunt, fratres. Ne quis dicat: 
+   <lb ed="#PL"/> Christum non colo, sed Deum colo Patrem ipsius. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Omnis qui negat Filium, nec</hi> Fitium <hi rend="italic">nec Patrem
+    habet : 
+   <lb ed="#PL"/> ei qui confitetur</hi> Filium, <hi rend="italic">et Filiumet</hi> Patrem
+    <hi rend="italic">habet.</hi> VOl 
+   <lb ed="#PL"/> grana alloquitur; et qui palea erant, audiant, et grana 
+   <lb ed="#PL"/> fiant. Uuusquisque considerans conscientiam suam, 
+   <lb ed="#PL"/> si mundi amator est, mutetur; fiat amator Christi, 
+   <lb ed="#PL"/> ne sit antichristus. Si quis ei dixerit quod antichristus 
+   <lb ed="#PL"/> sit, iraseitur, injuriam sibi factam putat; fortassis in<lb ed="#PL" break="no"/>scriptionem
+   minatur, si audiat a litigante quod anti<lb ed="#PL" break="no"/>christus
+   sit. Dicit ei Christus : Patiens esto; si falsum 
+   <lb ed="#PL"/> audisti, gaude mecum, quia et ego falsa ab antichri<lb ed="#PL" break="no"/>stis
+   audio: si autem verum audisti, conveni conscien<lb ed="#PL" break="no"/>tiam
+   tuam; et si audire times, esse plus time.</p>
+      <p xml:id="n6MsPi-smbOX9-d1e1094">
+       <hi rend="italic">i i. Ergo vos quod ab</hi> initio <hi rend="italic">audistis,</hi> in
+    <hi rend="italic">vobis maneat. 
+   <lb ed="#PL"/> Quod</hi> si in vobis manserit <hi rend="italic">quod</hi> ab <hi rend="italic">initio audistis; et vos</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">Filio</hi> et <hi rend="italic">Patre</hi> manebitis. <hi rend="italic">Haec eat pollicitatio quam 
+   <lb ed="#PL"/> ipse pollicitus</hi> est <hi rend="italic">nobis.</hi> Forte enim mercedem quaere<lb ed="#PL" break="no"/>res,
+   et diceres: Ecce in me quod ab initio audivi cu<lb ed="#PL" break="no"/>stodio,
+   obtempero i pericula, labores, tentationes pro
+   
+   <lb ed="#PL"/> ista permansione sustineo: quo fructu ? qua mercede ? 
+   <lb ed="#PL"/> Quid mihi postea dabit, quia in hoc saeculo me video 
+   <lb ed="#PL"/> laborare inter tentationes? Non video hic requiem 
+   <lb ed="#PL"/> esse aliquain; mortalitas ipsa aggravat animam, et 
+   <lb ed="#PL"/> corpus quod corrumpitur premit ad inferiora : sed to<lb ed="#PL" break="no"/>lero
+   omnia, ut illud quod ab initio audivi, maneat in 
+   <lb ed="#PL"/> me; et dicam Deo meo, <hi rend="italic">Propter verba labiorum
+    tuo<lb ed="#PL" break="no"/>ram
+   ego custodivi vias duras (Psal.</hi> XVI, 4). Ad quam 
+   <lb ed="#PL"/> ergo mercedem? Audi, et noli deficere. Si deficiebas 
+   <lb ed="#PL"/> in laboribus, promissa mercede furtis esto. Quis esi 
+   <lb ed="#PL"/> qui operetur in vinea, et recedat illi de corde quod 
+   <lb ed="#PL"/> accepturus est? Fac illum oblitum mercedem suam, 
+   <lb ed="#PL"/> deficiunt manus. Memoria promissae mercedis perse<lb ed="#PL" break="no"/>verantem
+   facit in opere: et homo promisit qui te por
+   
+   <lb ed="#PL"/> test fallere. Quanto fortior esse debes in agro Dei, 
+   <lb ed="#PL"/> quando promisit veritas, cui nec succedi potest, nec 
+   <lb ed="#PL"/> mori, nec fallere potest eum cui promissum est? Et 
+   <lb ed="#PL"/> quid est promissum? Videamus quid promisit. Aurum 
+   <lb ed="#PL"/> est, quod hic multum amant homines, anargentum? 
+   <lb ed="#PL"/> An possessiones, ad quas fundunt homines aurum,
+   
+   <lb ed="#PL"/> quamvis multum ament, aurum? An amoena praedia, 
+   <lb ed="#PL"/> amplae domus, multa mancipia, animalia numerosa? 
+   <lb ed="#PL"/> Non haec- est quaedam merces ad quam nos hortatur, 
+   <lb ed="#PL"/> ut in labore duremus. Quid dicitur merces isia? Vita 
+   <lb ed="#PL"/> aeterna. Audistis, et gavisi exclamastis : amate quod 
+   <lb ed="#PL"/> audistis, et liberamini a laboribus vestris in requiem
+   
+   <lb ed="#PL"/> vita aeternae. Ecce quid promittit Deus, vitam aeter<lb ed="#PL" break="no"/>nam.
+   Ecce quid minatur Deus, ignem aeternum. Quid 
+   <lb ed="#PL"/> i lis ad dexteram constitutis? <hi rend="italic">Venite, benedicti Patris 
+   <lb ed="#PL"/> mei, percipite regnum quod vobis paratum est ab
+    origine
+   <lb ed="#PL"/> mundi.</hi> Ad sinistram quid ? <hi rend="italic">Ite</hi> in <hi rend="italic">ignem aeternum,</hi> qui 
+   <lb ed="#PL"/> praeparatus <hi rend="italic">est diabolo,
+    et, angelis</hi> ejus <hi rend="italic">(Matth.</hi> xxv, 
+   <lb ed="#PL"/> 34, 41). Illud nondum amas, vel hoc time.</p>
+      <p xml:id="n6MsPi-smbOX9-d1e1226">it Mementote ergo, fratres mei, quia vitam aeter<lb ed="#PL" break="no"/>nom
+   nobis promisit Christos :
+    <hi rend="italic">Hac cat,</hi> inquit, <hi rend="italic">polli<lb ed="#PL" break="no"/>citatio
+    quam</hi> ipse <hi rend="italic">pollicitus eat nobis, vitam aeternam.</hi>
+   
+       <lb ed="#PL"/> Haec scripsi <hi rend="italic">vobis</hi> de <hi rend="italic">his qui vos
+    seducunt.</hi> Ncmo vos se<lb ed="#PL" break="no"/>ducat
+   ad mortem; promissionem vitae aeternae desi­
+   
+   <lb ed="#PL"/> derate. Quid potest mundus promittere? Quidquid 
+   <lb ed="#PL"/> libet promittat, fortassis crastina morituro promittit. 
+   <lb ed="#PL"/> Et qua fronte ad illum qui manet in aeternum, exitu­
+   
+   <lb ed="#PL"/> rus es? Sed minatur mihi potens homo, ut aliquid 
+   <lb ed="#PL"/> mali faciam. Quid minatur? Carceres, catenas, ignes, 
+   <lb ed="#PL"/> tormenta, bestias: numquid ignem aeternum? Exhor<lb ed="#PL" break="no"/>resce
+   quod minatur Omnipotens, ama quod pollicetur 
+   <lb ed="#PL"/> Omnipotens; et vilescit omnis mundus, sive promit<lb ed="#PL" break="no"/>tens,
+   sivo terrens. <hi rend="italic">Haec scripsi vobis de
+    his qui vos</hi> se­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ducunt; ut sciatis quia unctionem</hi> habetis, <hi rend="italic">et
+    unctio 
+   <lb ed="#PL"/> quam accepimus</hi> ab <hi rend="italic">eo I,</hi> permaneat in nobis. Unctionis 
+   <lb ed="#PL"/> sacramentum est, virtus ipsa invisibilis, unctio invi<lb ed="#PL" break="no"/>sibilis,
+   Spiritus sanctus; unctio invisibilis, charitas 
+   <lb ed="#PL"/> illa est quae in quocumque fuerit, tanqnam radix illi 
+   <lb ed="#PL"/> erit, quamvis ardente sole arescere non potest. Omne 
+   <lb ed="#PL"/> quod radicatum est, nutritur calore solis, non arescit.</p>
+      <p xml:id="n6MsPi-smbOX9-d1e1300">13. <hi rend="italic">Et non habetis necessitatem</hi> ut <hi rend="italic">aliquis vos
+    docent, 
+   <lb ed="#PL"/> quia unctio ipsius docet vos de omnibus.</hi> Quid ergo nus 
+   <lb ed="#PL"/> facimus, fratres, quia docemus vos? Si unctio ejus 
+   <lb ed="#PL"/> docet vos de pluribus, quasi nos sine causa labora<lb ed="#PL" break="no"/>mus.
+   Et utquid tantum clamamus? Dimittamus vos 
+   <lb ed="#PL"/> unctioni illius, et doceat vos unctio ipsius. Sed modo 
+   <lb ed="#PL"/> mihi facio quaestionem, et illi ipsi apostolo facio : di<lb ed="#PL" break="no"/>gnetur
+   audire parvulum querentem a se; ipsi Joanni
+   
+   <lb ed="#PL"/> dico, Unctionem habebant quibus loquebaris? Tu 
+   <lb ed="#PL"/> dixisti, <hi rend="italic">Quia unctio ipsius docet vos de omnibus.</hi> Utquid 
+   <lb ed="#PL"/> talem Epistolam fecisti ? Quid illos tu doccbas? quid 
+   <lb ed="#PL"/> instruebas? quid aedificabas? Jam hic videte magnum
+   
+   <lb ed="#PL"/> sacramentum, fratres : sonus verborum nostrorum 
+   <lb ed="#PL"/> aures percutit, magister intus est. Nolite putaro 
+   <lb ed="#PL"/> quemquam aliquid discere ab homine. Admonere pos<lb ed="#PL" break="no"/>sumus
+   per strepitum vocis nostrae; si non sit intus 
+   <lb ed="#PL"/> qui doceat , inanis fit strepitus noster. Adeo, fratres, 
+   <lb ed="#PL"/> vultis nosse? Numquid non sermonem istum omnes.
+   
+   <lb ed="#PL"/> audistis? Quam multi binc indocti exituri sunt ? Quan<lb ed="#PL" break="no"/>tum
+   ad me pertinet, omnibus locutus sum; sed qui<lb ed="#PL" break="no"/>bus
+   unctio illa intus non loquitur, quos Spiritus san<lb ed="#PL" break="no"/>ctus
+   intus non docet, indocti redeunt. Magisteria fo<lb ed="#PL" break="no"/>rinsecus,
+   adjutoria quaedam sunt, et admonitiones. 
+   <lb ed="#PL"/> Cathedram in caelo habet qui corda docet. Propterea 
+   <lb ed="#PL"/> ait et ipse in Evangelio : <hi rend="italic">Nolite vobis dicere
+    magistrum</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">terra;</hi> unus est <hi rend="italic">magister vester
+    Christus (Matth.</hi> XXIII, 
+   <lb ed="#PL"/> 8, 9). Ipse vobis ergo intus loquatur, quando Demo.
+   
+   <lb ed="#PL"/> hominum illic est; quia etsi aliquis esta latere tuo, nul<lb ed="#PL" break="no"/>lus
+   est in corde tuo. Et non sit nullus in corde tuo1: 
+   <lb ed="#PL"/> Christus sit in corde tuo; unctio ipsius sit in corde, 
+   <lb ed="#PL"/> ne sit in solitudine cor sitiens, et non habens fontes 
+   <lb ed="#PL"/> quibus irrigetur. Interior ergo magister est qui docet, 
+   <lb ed="#PL"/> Christus docet, inspiratio ipsius docet. Ubi illius in<lb ed="#PL" break="no"/>spiratio
+   et unctio illius non est, forinsecus inaniter 
+   <lb ed="#PL"/> perstrepunt verba. Sic suut ista verba, fratres, quae 
+   <lb ed="#PL"/> forinsecus dicimus, quomodo est agricola ad arborem : 
+   <lb ed="#PL"/> forinsecus operatur, adhibet aquam et diligentiam 
+   <lb ed="#PL"/> culturx; quaelibet forinsecus adhibeat, numquid p.orna 
+   <lb ed="#PL"/> format? numquid nuditatem lignorum vestit umbra 
+   
+   <pb ed="#PL" n="2005"/>
+       <lb ed="#PL"/> foliorum? numauid tale aliquid intrinsecus agitfSed 
+   <lb ed="#PL"/> qnis agit hoc? audite agricolam Apostolum, et videte 
+   <lb ed="#PL"/> quid sumus, et audite magistrum interiorem:
+    <hi rend="italic">Ego 
+   <lb ed="#PL"/> plantavi, Apollo rigavit; sed Deus</hi> incrementum <hi rend="italic">dedit : 
+   <lb ed="#PL"/> neque'</hi> qui <hi rend="italic">plantat eat aliquid,
+    neque qui rigat; sed qui 
+   <lb ed="#PL"/> incrementum dat Deus</hi> (1 Cor. III, 6, 7). Hoc ergo vo<lb ed="#PL" break="no"/>bis
+   dicimus : sive plantemus, sive rigcmus I oquendo, 
+   <lb ed="#PL"/> non sumus aliquid; sed ille qui incrementum dat 
+   <lb ed="#PL"/> Deus, id est, unctio illius quae docet vos de omnibus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

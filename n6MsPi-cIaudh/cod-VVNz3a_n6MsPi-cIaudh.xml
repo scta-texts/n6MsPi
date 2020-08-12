@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 5</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 5</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="n6MsPi-cIaudh"> <!-- n6MsPi-t5 -->
+      <head xml:id="n6MsPi-cIaudh-Hd1e109">Tractatus 5</head>
+      <ab>
+       <title type="sub">1n <hi rend="italic">id quod sequitur,</hi> Omnis qui natus est ex
+    Deo, non facit peccatum ; <hi rend="italic">usque ad id ,</hi> Non diligamus verbo
+    tantum et lingua , sed opere et veritate. <hi rend="italic">Cap.</hi> m, i .
+    9-18.</title>
+      </ab>
+      <p xml:id="n6MsPi-cIaudh-d1e127">i. Intente audite, obsecro vos, quia res non mi<lb ed="#PL" break="no"/>nima
+   versatur in medio : et non dubito quia hesterno 
+   <lb ed="#PL"/> die adfuistis intente , quod et hodie iutentius conve<lb ed="#PL" break="no"/>nistis.
+   Est enim non parva quaestio , quomodo dicat 
+   <lb ed="#PL"/> in ista Epistola , <hi rend="italic">Qui natus est ex Deo , non peccat :</hi>
+   
+       <lb ed="#PL"/> et quomodo in eadem Epistola superius dixit, <hi rend="italic">Si 
+   <lb ed="#PL"/> dixerimus
+    quia peccatum non habemus,</hi> nos <hi rend="italic">ipsos</hi> sedu<lb ed="#PL" break="no"/>cimus
+   ,
+    <hi rend="italic">et veritas</hi> in <hi rend="italic">nobis non eat</hi> ( I <hi rend="italic">Joan.</hi> I, 8). Quid 
+   <lb ed="#PL"/> facturus est quem uterque sermo ex eadem Epistola 
+   <lb ed="#PL"/> ill medio coarctavit? Si se confessus fuerit peccato<lb ed="#PL" break="no"/>rem
+   * timet ne dicatur illi, Non ergo ex Deo natus 
+   <lb ed="#PL"/> es ; quia scriptum est, <hi rend="italic">Qui natus est ex Deo, non pec­
+   <lb ed="#PL"/> cat.</hi> Si autem dixerit se justum, et non habere pec<lb ed="#PL" break="no"/>catum,
+   accipit ex alia parte plagam ex ipsa Epistola, 
+   <lb ed="#PL"/> Si <hi rend="italic">dixerimus quia peccatum non habemus, noa ipsos
+   <lb ed="#PL"/> seducimus, et
+    veritas</hi> in <hi rend="italic">nobis non est.</hi> Positus ergo 
+   <lb ed="#PL"/> homo in medio, quid dicat, et quid confiteatur, aut 
+   <lb ed="#PL"/> quid profiteatur, non invenit. Profiteri se esse sine 
+   <lb ed="#PL"/> peccato, periculosum est; et non solum periculosum, 
+   <lb ed="#PL"/> sed etiam mendosum : <hi rend="italic">Nos ipsos,</hi> inquit, <hi rend="italic">seducimus, 
+   <lb ed="#PL"/> et veritas</hi> in <hi rend="italic">nobis non est, si dixerimus
+    quia</hi> peccatum 
+   <lb ed="#PL"/>
+       <hi rend="italic">non habemus.</hi> Sed utinam non haberes , et diceres ! 
+   <lb ed="#PL"/> verum enim diceres, nec in veritate promenda ullum 
+   <lb ed="#PL"/> iniquitatis vel vestigium formidares. Sed ideo male 
+   <lb ed="#PL"/> facis si dicis quia mendacium dicis : <hi rend="italic">Veritas,</hi> inquit, 
+   <lb ed="#PL"/> in <hi rend="italic">nobis non</hi> est, si dixerimus <hi rend="italic">quia peccatum non habe­</hi>
+   
+       <lb ed="#PL"/> mus. Non ait, Non habuimus; ne forte de praeterita 
+   <lb ed="#PL"/> vita dictum videretur. Habuit enim peccata homo iste ; 
+   <lb ed="#PL"/> sed ex quo natus est ex Deo , caepit non habere. Si 
+   <lb ed="#PL"/> ita esset, nulla nos angustaret quaestio. Diceremus 
+   <lb ed="#PL"/> enim : Fuimus peccatores, sed modo justificati sumus; 
+   <lb ed="#PL"/> habuimus peccatum, sed modo non habemus. Non 
+   <lb ed="#PL"/> hoc ait : sed quid ait ? Si <hi rend="italic">dixerimus quia peccatum non
+    
+   <lb ed="#PL"/> habemus, noa</hi> ipsos seducimus, <hi rend="italic">et veritas</hi> in <hi rend="italic">nobis non 
+   <lb ed="#PL"/> est.</hi> Post aliquantum rursus, <hi rend="italic">Qui
+    natus est ex Deo,</hi>
+   
+       <lb ed="#PL"/> inquit , <hi rend="italic">non peccat.</hi> Numquid Joannes ipse non erat 
+   <lb ed="#PL"/> natus ex Deo ? Si Joannes non erat natus ex Deo , de 
+   <lb ed="#PL"/> quo audistis quia supra pectus Domini recumbebat; 
+   <lb ed="#PL"/> aliquis sibi audet promitterc regenerationem factam
+   
+   <lb ed="#PL"/> in se, quam ille habere non meruit, qui super pectus 
+   <lb ed="#PL"/> Domini recumbere meruit
+   ? Quem Dominus plus quam 
+   <lb ed="#PL"/> caeteros diligebat <hi rend="italic">(Joan.</hi> XIII, 23), ipsum solum de 
+   <lb ed="#PL"/> Spiritu non genuerat ?</p>
+      <p xml:id="n6MsPi-cIaudh-d1e289">i. Allendile nunc verba ista : adhuc angustias no<lb ed="#PL" break="no"/>stras
+   commendo, ut per intentionem vestram , quae 
+   <lb ed="#PL"/> oratio est et pro nobis et pro vobis, dilatet Deus , et
+   
+   <lb ed="#PL"/> det exitum ; ne aliquis in verbo ejus inveniat occa<lb ed="#PL" break="no"/>sionem
+   perditionis suae, quod verbum non est pra<lb ed="#PL" break="no"/>dicatum
+   et conscriptum , nisi ad medicinam et salu­ 
+   <lb ed="#PL"/> lem. <hi rend="italic">Omnis ,</hi> inquh, <hi rend="italic">qui facit peccatum, et
+    iniquitatem 
+   <lb ed="#PL"/> facit.</hi> Ne forte discernas : <hi rend="italic">Peccatum
+    iniqiutas esi.</hi> Ne 
+   <pb ed="#PL" n="2013"/>
+       <lb ed="#PL"/> dicas, Peccator sum, sed iniquus non sum : <hi rend="italic">Peccatum</hi>
+   
+       <lb ed="#PL"/> iniquitas <hi rend="italic">eat. Et scitis quia</hi> in <hi rend="italic">hoc ille
+    manifestatus eat,</hi>
+   
+       <lb ed="#PL"/> ut peccata <hi rend="italic">auferat; et peccatum</hi> in <hi rend="italic">illo
+    non</hi> eat. Et quid 
+   <lb ed="#PL"/> prodest nobis quia venit sine peccato ? <hi rend="italic">Omnis qni 
+   <lb ed="#PL"/> non peccat,</hi> in ipso <hi rend="italic">manet : et omnis qui
+    peccat, non 
+   <lb ed="#PL"/> vidit eum, neque cognovit eum. Filioli, nemo vos sedu­ 
+   <lb ed="#PL"/>
+    cat.</hi> Qai <hi rend="italic">facit justitiam, justus est, sicut et ille justus
+    
+   <lb ed="#PL"/> est.</hi> JaIn ista diximus, quia <hi rend="italic">sicut</hi> secundum quamdam
+   
+   <lb ed="#PL"/> similitudinem, non secundum aequalitatem, dici solet. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Qui facit peccatum, de diabolo est; quia ab initio</hi> diabo­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">lus peccat.</hi> Et hoc diximus, quia nemiuem creavit 
+   <lb ed="#PL"/> diabolus, neque genuit; sed imitatores cjus tanquam 
+   <lb ed="#PL"/> ex illo nascuntur. ln <hi rend="italic">hoc manifestatus est Filius Dei,</hi>
+   
+       <lb ed="#PL"/> ut <hi rend="italic">solvat opera diaboli (Joan.</hi> III, 4-8). Ergo ut solvat
+   
+   <lb ed="#PL"/> peccata 1 ille qui non habet peccatum. Deinde sequi<lb ed="#PL" break="no"/>tur
+   : <hi rend="italic">Omnis qui natus eat ex Deo, non facit peccatum, 
+   <lb ed="#PL"/> quia semen ejus</hi> in <hi rend="italic">ipso manet ; et non potest peccare, 
+   <lb ed="#PL"/> quia ex Deo natus est.</hi> Fortiter instrinxit. Fortassis se<lb ed="#PL" break="no"/>cundum
+   quoddam peccatum dixit, <hi rend="italic">non peccat,</hi> non 
+   <lb ed="#PL"/> secundum omne peccatum : ut quod ait, <hi rend="italic">Qui natus
+   <lb ed="#PL"/> eat ex Deo, non peccat,</hi> certum quoddam peccatum
+   
+   <lb ed="#PL"/> intelligas, quod non potest admittere homo qui ex 
+   <lb ed="#PL"/> Deo natus est : et tale peccatum est illud, ut si quis<lb ed="#PL" break="no"/>quam
+   illud admiserit, confirmet caetera; si quis au<lb ed="#PL" break="no"/>lem
+   hoc non admiscril, solvat caetera. Quod est hoc 
+   <lb ed="#PL"/> peccatum ? Facere contra mandatum. Quod est man<lb ed="#PL" break="no"/>datum
+   ? <hi rend="italic">Mandatum novum do vobis ,
+    ut vos invicem</hi> di­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ligatis (ld.</hi> XIII, 34 ). Intendite. Hoc mandatum 
+   <lb ed="#PL"/> Christi dilectio vocatur : per hanc dilectionem pec<lb ed="#PL" break="no"/>cata
+   solvuntur. Haec si non teneatur, et grave pecca<lb ed="#PL" break="no"/>tum
+   est, et radix omnium peccatorum.</p>
+      <p xml:id="n6MsPi-cIaudh-d1e445">5. Intendite, fratres ; protulimus aliquid in quo 
+   <lb ed="#PL"/> bene intelligentibus soluta est quaslio. Sed numquid 
+   <lb ed="#PL"/> cum celerioribus tantum ambulamus viam? Et qui 
+   <lb ed="#PL"/> tardius ambulant, non sunt rclinqucndi. Versemus 
+   <lb ed="#PL"/> hoc quibus possumus verbis, ut ad omnes perveniat. 
+   <lb ed="#PL"/> Puto enim, fratres, quia omnis homo sollicitus est 
+   <lb ed="#PL"/> pro anima sua, qui non sine causa intrat Ecclesiam, 
+   <lb ed="#PL"/> qui non temporalia quaerit in Ecclesia, qui non pro<lb ed="#PL" break="no"/>pterea
+   intrat ut transigat negotia saecularia ; sed ideo 
+   <lb ed="#PL"/> intrat, ut aliquid sibi aeternum promissum teneat, quo 
+   <lb ed="#PL"/> perveniat : necesse est cogitet I quemadmodum am<lb ed="#PL" break="no"/>bulet
+   in via, ne remancat , ne retro eat, ne aberret, 
+   <lb ed="#PL"/> ne claudicando non perveniat. Qui ergo sollicitus est, 
+   <lb ed="#PL"/> tardus sit, velox sit, non recedat de via. Hoc ergo 
+   <lb ed="#PL"/> dixi, quia <hi rend="italic">qui natus eat ex Deo, non
+    peccat,</hi> fortassis 
+   <lb ed="#PL"/> secundum quoddam peccatum voluit intelligi : nam 
+   <lb ed="#PL"/> erit contrarium illi loco , Si <hi rend="italic">dixerimus quia peccatum 
+   <lb ed="#PL"/> non
+    habemus, nos</hi> ipsos <hi rend="italic">seducimus, et veritas</hi> in <hi rend="italic">nobis 
+   <lb ed="#PL"/> non eat.</hi> Sic ergo potest solvi quaestio. Est quoddam
+   
+   <lb ed="#PL"/> peccatum quod non potest admittere ille qui natus est 
+   <lb ed="#PL"/> ex Deo; et quo non admisso solvuntur caetera, quo 
+   <lb ed="#PL"/> admisso confirmantur caetera. Quod est hoc peccatum?
+   
+   <lb ed="#PL"/> Facere contra mandatum Christi, contra testamentum 
+   <lb ed="#PL"/> novum. Quod est mandatum novum? <hi rend="italic">Mandatum novum 
+   <lb ed="#PL"/> do vobis, ut</hi> vos invicem <hi rend="italic">diligatis.</hi> Qui facit contra clia­ 
+   
+   <lb ed="#PL"/> rilatem et contra dilectionem fraternam , non audeat 
+   <lb ed="#PL"/> gloriari, et dicere natum se esse ex Deo : qui autem 
+   <lb ed="#PL"/> in dilectione fraterna constitutus est, certa sunt pec<lb ed="#PL" break="no"/>cata
+   quae non potest admittere, et hoc maxime ne 
+   <lb ed="#PL"/> oderit fratrem. Et quid de caeteris peccatis facit, unde 
+   <lb ed="#PL"/> dictum est, Si <hi rend="italic">dixerimus
+    quia peccatum non habemus,
+   <lb ed="#PL"/> noa ipsos seducimus, et veritas in nobis non est?</hi> Audiat 
+   <lb ed="#PL"/> securitatem de alio loco Scriptune : <hi rend="italic">Charitas cooperit
+    
+   <lb ed="#PL"/> multitudinem peccatorum</hi> (I <hi rend="italic">Petr.</hi> IV, 8).</p>
+      <p xml:id="n6MsPi-cIaudh-d1e547">4. Charitatem ergo commendamus ; charitatem com. 
+   <lb ed="#PL"/> mendat haec Epistola. Post resurrectionem Dominus 
+   <lb ed="#PL"/> quid aliud interrogavit Petrum , nisi, <hi rend="italic">Amas</hi> me? Et 
+   <lb ed="#PL"/> parum fuit semel interrogare; et iterum nibil aliud, et 
+   <lb ed="#PL"/> tertio nihil aliud. Cum jam tertio ille taedio afticere<lb ed="#PL" break="no"/>tur,
+   quasi non sibi crederet, quomodo qui nesciret 
+   <lb ed="#PL"/> quid in illo ageretur ; tamen et primo, et secundo, et 
+   <lb ed="#PL"/> tertio hoc interrogavit. Ter negavit timor, ter con<lb ed="#PL" break="no"/>fessus
+   est amor <hi rend="italic">(Joan.</hi> xxi, 15-17). Ecce amat Petrus 
+   <lb ed="#PL"/> Dominum. Quid praestaturus Domino? Non enim et 
+   <lb ed="#PL"/> ipse non turbatus est in illo psalmo, <hi rend="italic">Quid retribuam
+   <lb ed="#PL"/> Domino pro omnibus quae retribuit mihi?</hi> Qui enim di<lb ed="#PL" break="no"/>cebat
+   haec in Psalmo, attendebat quanta sibi essent 
+   <lb ed="#PL"/> praestita a Deo; et quaerebat quid retribueret Deo, et 
+   <lb ed="#PL"/> non invenicbat. Quidquid enim retribuere volueris, ab 
+   <lb ed="#PL"/> ipso accepisti ut reddas. Et quid invenit ut retribuat? 
+   <lb ed="#PL"/> Quod, ut diximus, fratres, ab ipso acceperat, hoc in<lb ed="#PL" break="no"/>venit
+   quod retribueret. <hi rend="italic">Calicem salutaris accipiam, et
+   <lb ed="#PL"/> nomen Domini invocubo (Psal.</hi> cxv, 12,13). Quis enim 
+   <lb ed="#PL"/> illi dederat calicem salutarem , nisi ille cui volebat
+   
+   <lb ed="#PL"/> retribuere? Accipere autem calicem salutarem, et in<lb ed="#PL" break="no"/>vocare
+   nomen Domini, hoc est satiari charitate; et 
+   <lb ed="#PL"/> ita saliari, ut non solum non oderis fratrem, sed
+   
+   <lb ed="#PL"/> paratus sis mori pro fratre. Perfecta ista charitas est, 
+   <lb ed="#PL"/> ut paratus sis mori pro fratre. Hanc ipse Dominus in 
+   <lb ed="#PL"/> se exhibuit, mortuus pro omnibus, orans pro eis a
+   
+   <lb ed="#PL"/> quibus crucifigebatur, et dicens : <hi rend="italic">Pater, ignosce illis, 
+   <lb ed="#PL"/>
+    quia nesciunt quid faciunt (Luc.</hi> x XIII, 54). Sed si solus 
+   <lb ed="#PL"/> hoc fecit, non erat magister, si discipulos non habe<lb ed="#PL" break="no"/>bat.
+   Secuti discipuli hoc fecerunt. Lapidabatur Ste<lb ed="#PL" break="no"/>phanus,
+   et genu fixo ait : <hi rend="italic">Domine, ne statuas
+    illis hoc 
+   <lb ed="#PL"/> delictum (Act.</hi> VII, 59). Amabat a quibus occidebatur, 
+   <lb ed="#PL"/> quia et pro ipsis moriebatur. Audi et apostolum Pau­ 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> lum : <hi rend="italic">Et ipse,</hi> inquit, <hi rend="italic">impendar pro
+    animabus vestris</hi>
+   
+       <lb ed="#PL"/> (II <hi rend="italic">Cor.</hi> XII, 15). luter illos enim erat pro quibus Ste­
+   
+   <lb ed="#PL"/> phanus deprecabatur, quando eorum manibus morie<lb ed="#PL" break="no"/>batur.
+   Perfecta ergo charitas haec est. Si quis tantam 
+   <lb ed="#PL"/> habuerit charitatem, ut paratus sit pro fratribus etiam 
+   <lb ed="#PL"/> mori, perfecta est in illo charitas. Sed numquid mox 
+   <lb ed="#PL"/> ut nascilur, jam prorsus perfecta est? Ut perficiatur, 
+   <lb ed="#PL"/> nascitur : cum fuerit nata, nutritur; cum fuerit nutrita 
+   <lb ed="#PL"/> roboratur; cum fuerit roborata, perficitur : cum ad
+   
+   <lb ed="#PL"/> perfectionem venerit, quid dicit ? <hi rend="italic">Mihi vivere Christus
+   <lb ed="#PL"/>
+    eat, et mori lucrum. Optabam dissolvi et esse cum Chri<lb ed="#PL" break="no"/>sto
+   ; multo enim
+    magis</hi> optimum : <hi rend="italic">manere</hi> in <hi rend="italic">carne ne­
+    
+   <lb ed="#PL"/> cessarium propter vos (Philipp.</hi> i, 21-24). Propter eos 
+   <lb ed="#PL"/> volebat vivere, pro quibus paratus erat mori.</p>
+      <p xml:id="n6MsPi-cIaudh-d1e688">5. Et ut noveritis quia ipsa est perfecta charitas, 
+   <lb ed="#PL"/> quam non violat, et in quam non peccat qui natus est &gt; 
+   <lb ed="#PL"/> ex Deo; hoc Dominus dicit Petro : <hi rend="italic">Petre,</hi> amas me? 
+   <pb ed="#PL" n="2015"/>
+       <lb ed="#PL"/> Et ille : <hi rend="italic">Amo.</hi> Non ait, Si amas me, obsequere mihi. 
+   <lb ed="#PL"/> Quando enim erat Dominus in carne morlali, esurivit, 
+   <lb ed="#PL"/> sitivit : eo tempore quo esuriebat et sitiebat. susce<lb ed="#PL" break="no"/>ptus
+   est hospitio; ministrarunt illi qui habuerunt, de 
+   <lb ed="#PL"/> substantia sua, sicut legimus in Evangelio <hi rend="italic">(Luc.</hi> VIII , 
+   <lb ed="#PL"/> 5). Suscepit eum hospitio Zacchaeus : salvus lactus est 
+   <lb ed="#PL"/> a morbo, suscepto medico. Quo, morbo? Avaritiae. 
+   <lb ed="#PL"/> Erat enim ditissimus, et princeps publicanorum. At<lb ed="#PL" break="no"/>tendite
+   sanatum a morbo avaritiae. <hi rend="italic">Dimidium,</hi> inquit, 
+   <lb ed="#PL"/> bonorum meorum <hi rend="italic">do pauperibus; et</hi> si <hi rend="italic">cui aliquid tuti, 
+   <lb ed="#PL"/> quadruplum reddam (Id.</hi> xix, 6-8). Ideo servavit alte<lb ed="#PL" break="no"/>rum
+   dimidium, non quo frueretur, sed unde debita 
+   <lb ed="#PL"/> solveret. Suscepit ergo tunc medicum hospitio , quia 
+   <lb ed="#PL"/> erat infirmitas carnis in Domino, cui hoc obsequium 
+   <lb ed="#PL"/> praeberent homines : et hoc, quia voluit praestare ob<lb ed="#PL" break="no"/>sequentibus;
+   obsequentibus enim proderat, non illi. 
+   <lb ed="#PL"/> Cui enim Angeli ministrabant, horum obsequium re<lb ed="#PL" break="no"/>quircbat? Nec Elias servus illius hoc necessarium 
+   <lb ed="#PL"/> habebat aliquando, cui panem et carnem per corvum 
+   <lb ed="#PL"/> mittebat ; et tamen ut vidua religiosa benediceretur, 
+   <lb ed="#PL"/> mittutr servus Dei, pascitur a vidua quem Deus in 
+   <lb ed="#PL"/> secreto pascebat (III <hi rend="italic">Reg.</hi> XVII , 4-9). Verumtamen 
+   <lb ed="#PL"/> quanquam de his servis Dei sibi praestent, qui eorum 
+   <lb ed="#PL"/> indigentiam considerant, propter illam mercedem a 
+   <lb ed="#PL"/> Domino in Evangelio manifestissime positam, <hi rend="italic">Qui
+    sus­
+   <lb ed="#PL"/> cipit justum</hi> in <hi rend="italic">nomine</hi> justi, <hi rend="italic">mercedem</hi> justi <hi rend="italic">accipiet;
+   <lb ed="#PL"/> et qui suscipit prophetam</hi> in <hi rend="italic">nomine</hi> prophetoe, <hi rend="italic">mercedem 
+   <lb ed="#PL"/> prophetae
+    accipiet; et qui dederit calicem aquae frigidce</hi>
+   
+       <lb ed="#PL"/> uni <hi rend="italic">ex his</hi> minimis <hi rend="italic">tantum in</hi> nomine
+    <hi rend="italic">discipuli, amm
+   <lb ed="#PL"/> dico vobis, non perdet</hi> mercedem <hi rend="italic">suam (Matth.</hi> x, 41 <hi rend="italic">et</hi>
+   
+       <lb ed="#PL"/> 42) : quamvis ergo sibi praestent qui hoc faciunt, ta<lb ed="#PL" break="no"/>men
+   nec hoc poterat praeberi ascensuro in coelum. 
+   <lb ed="#PL"/> Quid illi poterat retribuere Petrus, qui amabat illum? 
+   <lb ed="#PL"/> Audi quid : <hi rend="italic">Pasce oves meas;</hi> id est, Fae pro fratribus 
+   <lb ed="#PL"/> quod pro te feci. Omnes sanguine mco redemi : nolite 
+   <lb ed="#PL"/> dubitare mori pro veritatis confessione, ut caeteri vos 
+   <lb ed="#PL"/> imitentur.</p>
+      <p xml:id="n6MsPi-cIaudh-d1e837">6. Sed haec, ut diximus, fratres, perfecta charitas 
+   <lb ed="#PL"/> est; qui natus est ex Deo, habet illam. Intendat Cha<lb ed="#PL" break="no"/>ritas
+   vestra, videte quid dicam. Ecce accepit Sacra­
+   
+   <lb ed="#PL"/> mentum nativitatis homo baptizatus ; Sacramentum 
+   <lb ed="#PL"/> habet, et magnum Sacramentum, divinum, sanctum, 
+   <lb ed="#PL"/> ineffabile. Considera quale : ut novum hominem faciat 
+   <lb ed="#PL"/> dimissione omnium peccatorum. Attendat tamen in 
+   <lb ed="#PL"/> cor, si perfectum est ibi, quod factum est in corpore : 
+   <lb ed="#PL"/> vidcat si habet charitatem, et tunc dicat, Natus sum 
+   <lb ed="#PL"/> cx Deo. Si autem non habet, characterem quidem 
+   <lb ed="#PL"/> impositum habet , sed desertor vagatur. Habeat cha<lb ed="#PL" break="no"/>ritatem
+   ; aliter non se dicat natum ex Deo. Sed habeo, 
+   <lb ed="#PL"/> inquit , sacramentum. Audi Apostolum : Si <hi rend="italic">sciam</hi>
+   
+       <lb ed="#PL"/> oMina sacramenta, <hi rend="italic">et habeam omnem fidem, ita</hi> ut 
+   <lb ed="#PL"/>
+       <hi rend="italic">montes transferam, charitatem autem non</hi> habeam, <hi rend="italic">nihil</hi>
+   
+       <lb ed="#PL"/> sum (I <hi rend="italic">Cor.</hi> xm , 2).</p>
+      <p xml:id="n6MsPi-cIaudh-d1e888">i. Hoc, si meministis, commendavimus, cum istam 
+   <lb ed="#PL"/> Epistolam legcre inciperemus, nibil in ea nobis sic 
+   <lb ed="#PL"/> commendari, quomodo charitatem. Et si vidctur alia 
+   <lb ed="#PL"/> et alia dicere, illuc facit reditum; et ad ipsam chari<lb ed="#PL" break="no"/>tatem
+   omnia v ult referre quaecumque dixerit. Videa<lb ed="#PL" break="no"/>inus
+   si et bic hoc facit. Attende : <hi rend="italic">Omnis qui natus est
+   <lb ed="#PL"/> ex Deo, non facit peccatum.</hi> Quaerimus quod peccatum
+   
+   <lb ed="#PL"/> quia si omne intellexeris, contrarius erit illi loco, Si 
+   <lb ed="#PL"/>
+       <hi rend="italic">dixerimus quia peccatum non habemus, nosmetipsos</hi> se­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ducimus, et</hi> veritas in <hi rend="italic">nobis nen eat.</hi> Ergo dicat quod 
+   <lb ed="#PL"/> peccatum , doceat nos; ne forte ego temere dixerim 
+   <lb ed="#PL"/> peccatum hoc esse violationem charitatis, quia supra 
+   <lb ed="#PL"/> dixit, <hi rend="italic">Qui odit fratrem
+    suum, in tenebris ut, et in te­</hi>
+   
+       <lb ed="#PL"/> nebris <hi rend="italic">ambulat, et nescit quo eat, quia tenebrae excaeca­ 
+   <lb ed="#PL"/>
+    verunt oculos ejus</hi> (I <hi rend="italic">Joan.</hi> II, 11). Sed forte dixit ali­
+   
+   <lb ed="#PL"/> quid in posterioribus, et nominavit charitatem 1. Vi<lb ed="#PL" break="no"/>dele
+   quia circuitus ille verborum hunc habet finem, 
+   <lb ed="#PL"/> hunc habet exitum. Omn;, <hi rend="italic">qui
+    natus</hi> cat <hi rend="italic">ex Deo,</hi> non 
+   <lb ed="#PL"/>
+       <hi rend="italic">peccat; quia semen ejus in</hi> ipso <hi rend="italic">manet.</hi> Semen Dei, id 
+   <lb ed="#PL"/> est, verbum Dei: unde dicit Apostolus, <hi rend="italic">Per</hi> Euange­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">lium ego vos genui</hi> (I <hi rend="italic">Cor.</hi> IV, 15). <hi rend="italic">Et non</hi> potest <hi rend="italic">pec­
+   <lb ed="#PL"/> care, quia ex Deo natus
+    est.</hi> Dicat hoc, videamus in 
+   <lb ed="#PL"/> quo non potest peccare. <hi rend="italic">In
+    hoc manifestati sunt filii 
+   <lb ed="#PL"/> Dei et filii diaboli. Omnis qui non eat justus, nox
+    est a 
+   <lb ed="#PL"/> Deo, et qui non diliyit fratrem suum.</hi> Certe jam mani<lb ed="#PL" break="no"/>festum
+   est unde dicat, <hi rend="italic">Et qui non diUgit,</hi> inquit, <hi rend="italic">fra-
+    
+   <lb ed="#PL"/> ITem suum.</hi> Dilectio ergo sola discernit inter filios Dei 
+   <lb ed="#PL"/> et filios diaboli. Signent se omnes signo crucis Chri<lb ed="#PL" break="no"/>sti;
+   respondeant omnes, Amen; cantent omnes, Al<lb ed="#PL" break="no"/>leluia
+   ; baptizentur omnes, intrent Ecclesias, faciant 
+   <lb ed="#PL"/> parietes basilicarum : non discernuntur filii Dei a filiis 
+   <lb ed="#PL"/> diaboli, nisi charitate. Qui habent charitatem, nati 
+   <lb ed="#PL"/> sunt ex Deo : qui non habent, non sunt nati ex Deo. 
+   <lb ed="#PL"/> Magnum indicium, magna discretio. Quidquid vis 
+   <lb ed="#PL"/> habe; hoc solum non habeas, nibil tibi prodest : alia 
+   <lb ed="#PL"/> si non habeas, hoc habe, et implesti Legem. Qui <hi rend="italic">enim 
+   <lb ed="#PL"/> diligit alterum, Legem implevit,</hi> ait Apostolus : et, <hi rend="italic">Ple­</hi>
+   
+       <lb ed="#PL"/> nitudo <hi rend="italic">Legis charitas (Rom.</hi> XIII, 8, 10). Puto istam 
+   <lb ed="#PL"/> margaritam esse illam quam homo negotiator quai<lb ed="#PL" break="no"/>sisse
+   describitur in Evangelio, qui invenit unam mar<lb ed="#PL" break="no"/>garitam,
+   et vendidit omnia quae habebat, et emit eam 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Matth.</hi> XIII, 46). Haec est margarita pretiosa, chari<lb ed="#PL" break="no"/>tas,
+   sine qua nibil tibi prodest quodcumque habueris: 
+   <lb ed="#PL"/> quam si solam habcas, sufficit tibi. Modo cum fide 
+   <lb ed="#PL"/> vides, tunc cum specie videbis. Si enim atnamus cum 
+   <lb ed="#PL"/> non videmus, quomodo amplectemur cum viderimus? 
+   <lb ed="#PL"/> Sed ubi nos debemus exercere? In amore fraterno. 
+   <lb ed="#PL"/> Potes mihi dicere, Non vidi Deum; numquid potes 
+   <lb ed="#PL"/> mihi dicere, Non vidi hominem? Dilige fratrem. Si 
+   <lb ed="#PL"/> enim fratrem quem vides dilexeris, simul videbis et 
+   <lb ed="#PL"/> Deum; quia videbis ipsam charitatem, et iutus inha<lb ed="#PL" break="no"/>bitat
+   Deus.</p>
+      <p xml:id="n6MsPi-cIaudh-d1e1073">8. Qui <hi rend="italic">non eat justus, non eat ex Deo; et qui non</hi> di­ 
+   <lb ed="#PL"/> ligit <hi rend="italic">fratrem suum. Quia haec est annuntiatio,:</hi> vide quo<lb ed="#PL" break="no"/>modo
+   confirmat: <hi rend="italic">Quia haec eat annuntiatio quam audi<lb ed="#PL" break="no"/>vimus
+   ab
+    inicio, ut diligamus</hi> invicem. Manifostavit no<lb ed="#PL" break="no"/>bis
+   inde se dicere : contra hoc mandatum quisquis 
+   <lb ed="#PL"/> facit, in peccato illo est scelerato, in quod incidunt 
+   <lb ed="#PL"/> qui non nascuntur ex Deo. <hi rend="italic">Non sicut Cain qui ex</hi> ma­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ligno erat, et occidit fratrem suum. Et cujus rei gratia
+   <lb ed="#PL"/> occidit
+    ? Quia opera ejus maligna fuerunt,</hi> fratris <hi rend="italic">vero
+   <lb ed="#PL"/> ejus
+    justa.</hi> Ergo ubi est invidia, amor fraternus esse 
+   <lb ed="#PL"/> non potest. Intendat Charitas vestra. Qui invidet, noM 
+   
+   <pb ed="#PL" n="2017"/>
+       <lb ed="#PL"/> amat. Peccatum diaboli est in illo; quia et diabolus 
+   <lb ed="#PL"/> invidendo dejecit. Cecidit enim, et invidit stanti. Non 
+   <lb ed="#PL"/> ideo voluit dejicere ut ipse staret, sed ne solos cade<lb ed="#PL" break="no"/>ret.
+   Tenete in animo ex hoc qnod subjecit, invidiam 
+   <lb ed="#PL"/> non posse esse in charitate. Habes aperte cum lau<lb ed="#PL" break="no"/>daretur
+   ipsa eharitas, <hi rend="italic">Charitas non</hi> aemulatur (I <hi rend="italic">Cor.</hi> XIII, 
+   <lb ed="#PL"/> 4). Non fuit charitas in Cain ; et nisi esset charitas in 
+   <lb ed="#PL"/> Abel, non acciperet Deus sacrificium ejus. Cum enim 
+   <lb ed="#PL"/> ambo obtulissent, ille de fructibus terrae, ille de feti<lb ed="#PL" break="no"/>bus
+   ovium ; quid putatis, fratres, quia Deus fructus 
+   <lb ed="#PL"/> terrae neglexit, et fetus ovium dilexit? Non intendit 
+   <lb ed="#PL"/> Deus ad manus1; sed in corde vidit : et quem vidit 
+   <lb ed="#PL"/> eam charitate offerre, ipsius sacrificium respexit; 
+   <lb ed="#PL"/> . quem vidit cum invidia offerre, ab ipsius sacrificio 
+   <lb ed="#PL"/> oculos avertit. Opera ergo bona Abel non dicit nisi 
+   <lb ed="#PL"/> charitatem : opera mala Cain non dicit nisi odium 
+   <lb ed="#PL"/> fraternum. Parum est quia odit fratrem suum, et in<lb ed="#PL" break="no"/>vidit
+   operibus bonis; quia imitari noluit, necare vo<lb ed="#PL" break="no"/>luit.
+   Et hinc apparuit quia filius erat diaboli, et ille 
+   <lb ed="#PL"/> hinc app aruit justus Dei. Hinc ergo discernuntur ho<lb ed="#PL" break="no"/>mines,
+   fratresmei. Nemo attendat linguas, sed facta 
+   <lb ed="#PL"/> et cor 2. Si non bene faciat pro fratribus suis, osten- 
+   <lb ed="#PL"/> 4it quid In se habeat. Tentationibus probantur ho<lb ed="#PL" break="no"/>mines.</p>
+      <p xml:id="n6MsPi-cIaudh-d1e1177">9. <hi rend="italic">Nolite mirari, Fratres, si odit nos2 mundus.</hi> Num<lb ed="#PL" break="no"/>quid
+   saepe vobis dicendum est quid est mundus? Non 
+   <lb ed="#PL"/> cœlum, non terra, nec ista opera quae Deus fecit; sed 
+   <lb ed="#PL"/> dilectores mundi. Ista saepe dicendo quibusdam onc<lb ed="#PL" break="no"/>rosus
+   sum : sed usque adeo non frustra dico, ut ali<lb ed="#PL" break="no"/>qui
+   interrogentur an dixerim, et non respondeant. 
+   <lb ed="#PL"/> Ergo vel inculcando haereat aliquid in cordibus au- 
+   <lb ed="#PL"/> dientium. Quid est mundus? Mundus est, quando in 
+   <lb ed="#PL"/> malo ponitur, dilectores mundi : mundus quando in 
+   <lb ed="#PL"/> laude ponitur, cœlum et terra est, et quoe in his 
+   <lb ed="#PL"/> opera Dei; unde dicitur, Et mundus <hi rend="italic">per eum factus eat
+   <lb ed="#PL"/> (Joan.</hi> i, 10). Item mundus est plenitudo terrae, sicut 
+   <lb ed="#PL"/> dixit ipse Joannes, Non <hi rend="italic">solum autem nostrorum pecca­</hi>
+   
+       <lb ed="#PL"/> torum propitiator <hi rend="italic">eat, sed et totius</hi> mundi (I Joan. II, 2).
+   
+   <lb ed="#PL"/> Mundi dicit omnium fidelium per orbem sparsorum. 
+   <lb ed="#PL"/> Mundus amem in malo, amatores mundi sunt. Qui 
+   <lb ed="#PL"/> amant. mundam, fratrem amare non possent.</p>
+      <p xml:id="n6MsPi-cIaudh-d1e1227">10. <hi rend="italic">odit noa</hi> mundus : nos scimus. Quid nos sci- 
+   <lb ed="#PL"/> NIUS ? Quia <hi rend="italic">transivimus d4 morta ad vitam.</hi> Unde sci<lb ed="#PL" break="no"/>mus? Quia <hi rend="italic">diligimus. fratres.</hi> Nemo interroget homi<lb ed="#PL" break="no"/>uem;
+   redeat unusquisque ad eor suum : si ibi iuve<lb ed="#PL" break="no"/>nerit
+   charitatem fraternam, securas sit, quia transiit a 
+   <lb ed="#PL"/> morte ad vitam. Jam in dextera est : non attendat 
+   <lb ed="#PL"/> quia modo gloria ejus occulta est; cum venerit Domi<lb ed="#PL" break="no"/>nus,
+   tunc apparebit in gloria. Yigct enim, sed adhuc 
+   <lb ed="#PL"/> in hicme ; viget radix, sed quasi aridi sunt rami: in<lb ed="#PL" break="no"/>tus
+   est meduUa quae viget, intus sunt folia arborum, 
+   <lb ed="#PL"/> intus frnetus; sed aestatem exspectant. Ergo <hi rend="italic">nos sci­</hi>
+   
+       <lb ed="#PL"/> mus <hi rend="italic">quia transivimus de morte ad vitam, quia diligi<lb ed="#PL" break="no"/>mus
+    fratres. Qui non diligit, manet in morte.</hi> Ne pute<lb ed="#PL" break="no"/>tis,
+   fratres, leve esse, odisse aut non diligere, audite 
+   <lb ed="#PL"/> quod sequitur : Omnis <hi rend="italic">qui odit
+    fratrem</hi> suum, <hi rend="italic">homicida</hi>
+   
+       <lb ed="#PL"/>
+   
+   
+       <lb ed="#PL"/>
+       <hi rend="italic">eat.</hi> Jam ergo si contemnebat quisquam odium frater<lb ed="#PL" break="no"/>num,
+   numquid et homicidium in corde suo contem<lb ed="#PL" break="no"/>pturus
+   est? Non movct manus ad occidendum homi<lb ed="#PL" break="no"/>nem,
+   homicida jam tenetur a Domino; vivit ille, et 
+   <lb ed="#PL"/> iste jam interfector judicatur. <hi rend="italic">Omnis qui odit</hi> fratrem 
+   <lb ed="#PL"/>
+       <hi rend="italic">suum, homitida est. Et scilis quia</hi> omnis <hi rend="italic">homicida non 
+   <lb ed="#PL"/> habet vitam aeternam</hi> in <hi rend="italic">se manentem.</hi>
+      </p>
+      <p xml:id="n6MsPi-cIaudh-d1e1315">11. <hi rend="italic">In hoc cognoscimus dilectionem.</hi> Perfectionem 
+   <lb ed="#PL"/> dilectionis dicit, perfectionem illam quam commenda<lb ed="#PL" break="no"/>vimus.
+   <hi rend="italic">In
+    hoc cognoscimus dilectionem, quia ille pro
+   <lb ed="#PL"/> nobis animam suam posuit: et noa
+    debemus animas</hi> pro 
+   <lb ed="#PL"/>
+       <hi rend="italic">fratribus ponere.</hi> Ecce unde veniebat, <hi rend="italic">Petre,
+    amas me? 
+   <lb ed="#PL"/> pasce oves meas.</hi> Nam ut noveritis quia sic ab eo pasci 
+   <lb ed="#PL"/> volebat oves suas, at animam suam pro ovibus pone<lb ed="#PL" break="no"/>ret;
+   hoc illi continuo dixit, f Cum juvenis esses, prae<lb ed="#PL" break="no"/>cingebas
+   te, et ibas quo volebas; cum autem fueris 
+   <lb ed="#PL"/> senior, alus te praecinget, et tollet te quo tu non vis. 
+   <lb ed="#PL"/> Hoc autem dixit, i ait Evangelista, c significans qua 
+   <lb ed="#PL"/> morte clarificaturus erat Deum &gt; <hi rend="italic">(Joan.</hi> xxi, 15-19) : 
+   <lb ed="#PL"/> ut cui dixerat, i Pasce oves meas, &gt; doceret eum po<lb ed="#PL" break="no"/>nere
+   anitnam pro ovibus suis. i</p>
+      <p xml:id="n6MsPi-cIaudh-d1e1361">12. Unde incipit charitas, fratres? Modieum atten<lb ed="#PL" break="no"/>dite
+   : quo perficiatur andistis; ipsum finem et modum 
+   <lb ed="#PL"/> ipsum et Dominus in Evangelio commendaVit: <hi rend="italic">Majo<lb ed="#PL" break="no"/>rem</hi> charitatem <hi rend="italic">nento habet,</hi> ait,
+    <hi rend="italic">quam ut animam suam 
+   <lb ed="#PL"/> ponat pro amicis</hi> suis<hi rend="italic">(ld.</hi> xv, 13). Perfectionem ergo 
+   <lb ed="#PL"/> ejus ostendit irt Evangelio, et hic commendata est ejus 
+   <lb ed="#PL"/> perfectio : sed interrogatis vos, et dicitis vobis, Quando 
+   <lb ed="#PL"/> possumus habere istam charitatem ? Noli cito de te 
+   <lb ed="#PL"/> desperare : forte nata est, sed nondum perfecta est ;. 
+   <lb ed="#PL"/> nutri eam, ne effocetur. Sed dicturus es mih!, Et 
+   <lb ed="#PL"/> ande novi? Qno enim perficiatur audivimus ; unde in. 
+   <lb ed="#PL"/> cipiat audiamus. Sequitnr, et dicit: <hi rend="italic">Qui autem habue­
+   <lb ed="#PL"/> rit facultates
+    mundi, et viderit fratrem suum esurien<lb ed="#PL" break="no"/>tem,
+   et clauserit viscera sua ab eo :
+    quomodo poterit</hi> di­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">lectio Dei manere</hi> in eo ? Ecce unde incipit charitas. 
+   <lb ed="#PL"/> Si nondum es idoneus mori pro fratre, jam idoneus 
+   <lb ed="#PL"/> esto dare de tuis facultatibus fratrr. Jam percutiat vi<lb ed="#PL" break="no"/>scera
+   tua charitas, ut non de jactantia facias, sed de
+   
+   <lb ed="#PL"/> intimo adine misericordiae; ut consideres illum in 
+   <lb ed="#PL"/> egestate positum. Si enim superffua non potes dare 
+   <lb ed="#PL"/> fratri tuo, animam tuam potes ponere pro fratrc? Ja­
+   
+   <lb ed="#PL"/> oct pecanio in sina tuo, quam tibi Cures possunt au-r 
+   <lb ed="#PL"/> ferre; et si illam non auferent fures, moriendo illam 
+   <lb ed="#PL"/> deseres, etiam si te illa viventem non deserat : quid! 
+   <lb ed="#PL"/> inde facturus es? Esurit frater tuus, in necessitate por 
+   <lb ed="#PL"/> situs est: fortassis saspenditur, a creditore angusta<lb ed="#PL" break="no"/>tur;
+   non habet ipse, habes tu : frater tuus est, simus 
+   <lb ed="#PL"/> empti estis, unum est pretium vestrum, ambo san<lb ed="#PL" break="no"/>guine
+   Christi redempti estis : vide si misereris, si ha<lb ed="#PL" break="no"/>bes
+   facultates mundi. Quid ad me pertinet, forte di<lb ed="#PL" break="no"/>cis? Ego daturus sum pecnniam meam, ne ille mule<lb ed="#PL" break="no"/>stiam
+   patiatur ? Si hoe tibi responderit cor tuum, 
+   <lb ed="#PL"/> dileetio Patris non in te manct. Si dilectio Patris non 
+   <lb ed="#PL"/> in te manet, non es natus ex Deo. Quomodo te glo­
+   
+   <lb ed="#PL"/> nans esse christianum? Nomen habes, et facta non 
+   <lb ed="#PL"/> habes. Si autem nomen secutum fuerit opus, dicat tc 
+   <lb ed="#PL"/> qnisquam paganom, tu factis ostende te christianum.
+   
+   <lb ed="#PL"/> Nam si factis non ostendis te christianum, omnes te- 
+   <pb ed="#PL" n="2019"/>
+       <lb ed="#PL"/> christianum vocent, quid tibi prodest nomen, ubi res 
+   <lb ed="#PL"/> non invenitur? c Qui autem habuerit facultates mundi, 
+   <lb ed="#PL"/> et viderit fratrem suum egentem, et clauserit viscera 
+   <lb ed="#PL"/> sua ab eo; quomodo potest dilectio Dei manere in 
+   <lb ed="#PL"/> eo ? » Et sequitur : « Filioli, non diligamus verbo 
+   <lb ed="#PL"/> tantum et lingua, sed opere et veritate.
+   »</p>
+      <p xml:id="n6MsPi-cIaudh-d1e1477">13. Puto manifestatum esse vobis magaum et ne<lb ed="#PL" break="no"/>cessarium
+   secretum et sacramentum, fratres mei. 
+   <lb ed="#PL"/> Quid valeat charitas, omnis Scriptura commendat; 
+   <lb ed="#PL"/> sed nescio si alicubi amplius quam in ista Epistola 
+   <lb ed="#PL"/> commendetur. Rogamus vos et obsecramus in Do<lb ed="#PL" break="no"/>mino,
+   ut et illa quae audistis memoria teneatis; et ad ea 
+   <lb ed="#PL"/> quae adhuc dicenda sunt, donec finiatur ipsa Epistola, 
+   <lb ed="#PL"/> intenti veniatis, intenti audiatis. Aperite autem cor ad 
+   <lb ed="#PL"/> semina bona : exstirpate spinas, ne effocetur in vobis 
+   <lb ed="#PL"/> quod seminatur, sed potiqs crescat seges; et gaudeat 
+   <lb ed="#PL"/> agricola, et horreum vobis praeparet tanquam fru<lb ed="#PL" break="no"/>mentis,
+   non ignem tanquam paleis.</p>
+    </div>
+   </body>
+  </text>
+</TEI>
